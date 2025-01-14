@@ -1,0 +1,39 @@
+cdo selyear,2003 od550aer_AERmon_NorESM2-MM_historical.nc 2003.nc
+cdo selyear,2004 od550aer_AERmon_NorESM2-MM_historical.nc 2004.nc
+cdo selyear,2005 od550aer_AERmon_NorESM2-MM_historical.nc 2005.nc
+cdo selyear,2006 od550aer_AERmon_NorESM2-MM_historical.nc 2006.nc
+cdo selyear,2007 od550aer_AERmon_NorESM2-MM_historical.nc 2007.nc
+cdo selyear,2008 od550aer_AERmon_NorESM2-MM_historical.nc 2008.nc
+cdo selyear,2009 od550aer_AERmon_NorESM2-MM_historical.nc 2009.nc
+cdo selyear,2010 od550aer_AERmon_NorESM2-MM_historical.nc 2010.nc
+cdo selyear,2011 od550aer_AERmon_NorESM2-MM_historical.nc 2011.nc
+cdo selyear,2012 od550aer_AERmon_NorESM2-MM_historical.nc 2012.nc
+cdo selyear,2013 od550aer_AERmon_NorESM2-MM_historical.nc 2013.nc
+cdo selyear,2014 od550aer_AERmon_NorESM2-MM_historical.nc 2014.nc
+
+cdo monmean 2003.nc 1.nc
+cdo monmean 2004.nc 2.nc
+cdo monmean 2005.nc 3.nc
+cdo monmean 2006.nc 4.nc
+cdo monmean 2007.nc 5.nc
+cdo monmean 2008.nc 6.nc
+cdo monmean 2009.nc 7.nc
+cdo monmean 2010.nc 8.nc
+cdo monmean 2011.nc 9.nc
+cdo monmean 2012.nc 10.nc
+cdo monmean 2013.nc 11.nc
+cdo monmean 2014.nc 12.nc
+
+rm 2003.nc 2004.nc 2005.nc 2006.nc 2007.nc 2008.nc 2009.nc 2010.nc 2011.nc 2012.nc 2013.nc 2014.nc
+
+rm od550aer_AERmon_NorESM2-MM_historical.nc
+
+cdo mergetime *.nc od550aer_AERmon_NorESM2-MM_historical_mean.nc
+
+rm 1.nc 2.nc 3.nc 4.nc 5.nc 6.nc 7.nc 8.nc 9.nc 10.nc 11.nc 12.nc
+
+mv /mnt/c/Users/ferfo/OneDrive/desktop/cd/od550aer_AERmon_NorESM2-MM_historical_mean.nc /mnt/c/Users/ferfo/OneDrive/desktop/ensambles
+
+
+
+
