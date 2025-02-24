@@ -8,4 +8,4 @@ Data are from NASA's Goddard Earth Sciences Data Information Services Center (GE
 ## **CAMS**
 The CAMS reanalysis was downloaded from the ECMWF Atmospheric Data Store (ADS). Available at https://ads.atmosphere.copernicus.eu/datasets/cams-global-reanalysis-eac4?tab=overview
 ## **If you use the codes shared in this repository, please cite the following reference:**
-Forgioni, FP y Uhrig, MN (2025). Validación de diferentes tipos de aerosoles de incendios forestales en América del Sur mediante observaciones terrestres, reanálisis y modelos CMIP6. Zenodo. https://doi.org/10.5281/zenodo.14920243
+Forgioni, F., Uhrig, M., Ibañez, E., Peréz Ramirez, D., Escalante, L., Moreno, H., & Colmenares, J. (2025). AOD Validation for reanalisys and CMIP6 models based on ground-based observations. Zenodo. https://doi.org/10.5281/zenodo.14920339
